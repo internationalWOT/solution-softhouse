@@ -6,7 +6,7 @@ using solution_softhouse.Interfaces.RowEntities;
 using solution_softhouse.RowEntities;
 using solution_softhouse.TranslatorEngine.Interfaces;
 
-namespace solution_softhouse.XmlTranslatorEngine
+namespace solution_softhouse.TranslatorEngine
 {
     /*
     * Ruleset and structure in this XML Translator implementation:

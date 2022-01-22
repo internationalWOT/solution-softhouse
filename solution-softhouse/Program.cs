@@ -11,7 +11,6 @@ namespace solution_softhouse
     {
         private static ILogger<Program> _logger;
         private readonly ITranslatorEngine _translatorEngine;
-        private static string _result = "";
 
         static void Main(string[] args)
         {
@@ -24,8 +23,8 @@ namespace solution_softhouse
             try
             {
                 string src = File.ReadAllText(filePath);
-                _result = program._translatorEngine.DoTranslation(src);
-                Console.WriteLine(_result);
+                string result = program._translatorEngine.DoTranslation(src);
+                Console.WriteLine(result);
             }
             catch (Exception e)
             {
